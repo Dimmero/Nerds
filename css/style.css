@@ -728,15 +728,6 @@ input[type="radio"].visually__hidden {
   margin-top: 55px;
 }
 
-.filter__forms h2 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 30px;
-  letter-spacing: 0.56px;
-  color: #000000;
-  text-transform: uppercase;
-}
-
 .filter__forms legend {
   padding: 0;
   font-size: 18px;
@@ -744,6 +735,10 @@ input[type="radio"].visually__hidden {
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.price {
+  letter-spacing: 0.6px;
 }
 
 .filter__forms fieldset {
