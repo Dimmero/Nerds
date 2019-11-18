@@ -29,13 +29,6 @@ p {
   margin: 0;
 }
 
-button:active, button:focus {
-  outline: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-
 .visually__hidden:not(:focus):not(:active),
 input[type="checkbox"].visually__hidden,
 input[type="radio"].visually__hidden {
@@ -994,6 +987,8 @@ input[type="radio"].visually__hidden {
 }
 
 .filtration {
+  padding-top: 8px;
+  margin-right: 26px;
   position: relative;
   border: none;
   background-color: #ffffff;
@@ -1001,7 +996,6 @@ input[type="radio"].visually__hidden {
   line-height: 18px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.3);
-  margin-right: 12px;
   display: inline-block;
   cursor: pointer;
 }
@@ -1027,7 +1021,7 @@ input[type="radio"].visually__hidden {
   letter-spacing: 0.14px;
   color: #000000;
   text-transform: uppercase;
-  padding-right: 258px;
+  padding-right: 266px;
 }
 
 .sort__down {
@@ -1046,7 +1040,7 @@ input[type="radio"].visually__hidden {
   position: absolute;
   background: url(../img/icon-down.svg) no-repeat;
   top: 11px;
-  left: 12px;
+  left: 10px;
   width: 11px;
   height: 10px;
 }
@@ -1056,7 +1050,7 @@ input[type="radio"].visually__hidden {
   position: absolute;
   background: url(../img/icon-up.svg) no-repeat;
   top: 11px;
-  left: 6px;
+  left: 20px;
   width: 11px;
   height: 10px;
   opacity: 0.2;
