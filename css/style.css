@@ -280,21 +280,20 @@ input[type="radio"].visually__hidden {
 
 /* END SLIDER HEADER */
 
-.order__page__button {
+.advantage__button {
   margin-top: 32px;
   width: 160px;
+}
+
+.order__page__button {
   background-color: #fb565a;
 }
 
 .order__application__button {
-  margin-top: 32px;
-  width: 160px;
   background-color: #00ca74;
 }
 
 .order__presentation__button {
-  margin-top: 32px;
-  width: 160px;
   background-color: #efc84a;
 }
 
