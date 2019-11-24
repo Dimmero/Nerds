@@ -679,7 +679,7 @@ input[type="radio"].visually__hidden {
   padding-left: 138px;
 }
 
-.discount h3 {
+.motto {
   margin: 0;
   width: 565px;
   font-size: 36px;
@@ -689,7 +689,7 @@ input[type="radio"].visually__hidden {
   letter-spacing: 0.19px;
 }
 
-.discount p {
+.offer {
   padding-top: 10px;
   width: 353px;
   font-size: 16px;
