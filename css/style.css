@@ -20,10 +20,6 @@ ul {
   margin: 0;
 }
 
-img {
-  height: auto;
-}
-
 p {
   margin: 0;
 }
@@ -82,10 +78,8 @@ input[type="radio"].visually__hidden {
 }
 
 .navigation__link {
-  font-size: 16px;
   font-weight: 500;
   line-height: 30px;
-  color: #000000;
   text-transform: uppercase;
 }
 
@@ -96,10 +90,8 @@ input[type="radio"].visually__hidden {
 
 .cart__link {
   position: relative;
-  font-size: 16px;
   font-weight: 500;
   line-height: 30px;
-  color: #000000;
   text-transform: uppercase;
 }
 
@@ -159,9 +151,7 @@ input[type="radio"].visually__hidden {
   left: 50%;
   bottom: 89px;
   z-index: 100;
-
   width: 130px;
-
   text-align: center;
   font-size: 0;
   transform: translateX(-50%);
@@ -169,27 +159,22 @@ input[type="radio"].visually__hidden {
 
 .slider__controls label {
   position: relative;
-
   display: inline-block;
   width: 18px;
   height: 18px;
   padding: 8px;
-
   border-radius: 50%;
   cursor: pointer;
 }
 
 .slider__controls label::after {
   content: "";
-
   position: absolute;
   top: 8px;
   left: 8px;
   z-index: 1;
-
   width: 18px;
   height: 18px;
-
   background: #ffffff;
   border-radius: 50%;
 }
@@ -254,13 +239,11 @@ input[type="radio"].visually__hidden {
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
-  color: #000000;
 }
 
 .slider__item p {
   width: 375px;
   margin: 0 0 39px 0;
-  font-size: 16px;
   line-height: 24px;
   color: #283136;
 }
@@ -269,15 +252,12 @@ input[type="radio"].visually__hidden {
   display: block;
   width: 240px;
   padding: 17px 0 15px 0;
-
-  font-size: 16px;
   font-weight: 500;
   line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-
   background-color: #fb565a;
   border-radius: 3px;
   border: none;
@@ -290,7 +270,7 @@ input[type="radio"].visually__hidden {
 .slider__item__button:focus {
   background-color: #e74246;
   outline: 1px solid blue;
-  }
+}
 
 .slider__item__button:active {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
@@ -333,13 +313,11 @@ input[type="radio"].visually__hidden {
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
-  color: #000000;
   text-transform: uppercase;
 }
 
 .advantages p {
   padding-top: 17px;
-  font-size: 16px;
   line-height: 24px;
   color: #283136;
 }
@@ -425,7 +403,6 @@ input[type="radio"].visually__hidden {
 .how__we__work {
   padding-top: 33px;
   padding-bottom: 7px;
-  font-size: 16px;
   line-height: 24px;
   color: #283136;
   letter-spacing: 0.01px;
@@ -441,18 +418,16 @@ input[type="radio"].visually__hidden {
   font-size: 45px;
   font-weight: 500;
   line-height: 45px;
-  color: #000000;
   letter-spacing: 0.1px;
 }
 
 .services__heading {
   padding-top: 32px;
-  font-size: 16px;
   line-height: 24px;
   font-weight: bold;
   text-transform: uppercase;
   text-transform: uppercase;
-    letter-spacing: 0.08px;
+  letter-spacing: 0.08px;
 }
 
 .service__item {
@@ -491,21 +466,13 @@ input[type="radio"].visually__hidden {
   font-size: 45px;
   font-weight: bold;
   line-height: 10px;
-  color: #000000;
   display: block;
   margin-bottom: 37px;
 }
 
-/* .statistics__item span::after { 
-  content: "\0025";
-  width: 10px;
-  height: 10px;
-}*/
-
 .statistics__item {
   width: 89px;
   margin-right: 30px;
-  font-size: 16px;
   line-height: 18px;
   color: #283136;
   margin-top: -2px;
@@ -592,14 +559,12 @@ input[type="radio"].visually__hidden {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  color: #000000;
   text-transform: uppercase;
 }
 
 .map__write__us p {
   width: 210px;
   padding-top: 22px;
-  font-size: 16px;
   line-height: 18px;
   color: #666666;
 }
@@ -684,14 +649,12 @@ input[type="radio"].visually__hidden {
   font-size: 36px;
   font-weight: bold;
   line-height: 36px;
-  color: #000000;
   letter-spacing: 0.19px;
 }
 
 .offer {
   padding-top: 10px;
   width: 353px;
-  font-size: 16px;
   line-height: 22px;
   color: #444444;
   letter-spacing: 0.05px;
@@ -711,7 +674,6 @@ input[type="radio"].visually__hidden {
   font-size: 55px;
   font-weight: 500;
   line-height: 55px;
-  color: #000000;
 }
 
 .left__bar {
@@ -729,7 +691,6 @@ input[type="radio"].visually__hidden {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  color: #000000;
   text-transform: uppercase;
 }
 
@@ -802,8 +763,6 @@ input[type="radio"].visually__hidden {
 .price-controls label {
   display: inline-block;
   width: 50%;
-  
-  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -811,12 +770,9 @@ input[type="radio"].visually__hidden {
   width: 60px;
   padding: 9px 11px;
   margin-left: 6px;
-  
   font-family: Roboto, Arial, sans-serif;
-  font-size: 16px;
   text-align: center;
   color: #283136;
-  
   border: none;
   border-radius: 5px;
   background: #f1f1f1;
@@ -827,7 +783,6 @@ input[type="radio"].visually__hidden {
 }
 
 .filter__forms label {
-  font-size: 16px;
   line-height: 20px;
   color: #283136;
   position: relative;
@@ -1022,7 +977,6 @@ input[type="radio"].visually__hidden {
   font-weight: bold;
   line-height: 30px;
   letter-spacing: 0.14px;
-  color: #000000;
   text-transform: uppercase;
   padding-right: 266px;
 }
@@ -1147,7 +1101,6 @@ input[type="radio"].visually__hidden {
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
-  color: #000000;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1164,7 +1117,6 @@ input[type="radio"].visually__hidden {
   padding-top: 14px;
   padding-bottom: 31px;
   width: 225px;
-  font-size: 16px;
   line-height: 18px;
   color: #666666;
   text-align: center;
@@ -1223,11 +1175,9 @@ input[type="radio"].visually__hidden {
   width: 50px;
   display: inline-block;
   box-sizing: border-box;
-  font-size: 16px;
   font-weight: 500;
   line-height: 18px;
   text-align: center;
-  color: #000000;
   text-transform:  uppercase;
   background-color: #eeeeee;
   border-radius: 2px;
