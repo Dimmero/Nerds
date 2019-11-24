@@ -83,11 +83,6 @@ input[type="radio"].visually__hidden {
   text-transform: uppercase;
 }
 
-.site__navigation li:nth-child(4) {
-  margin-left: -2px;
-  margin-right: -1px;
-}
-
 .cart__link {
   position: relative;
   font-weight: 500;
@@ -317,22 +312,20 @@ input[type="radio"].visually__hidden {
 .advantages p {
   padding-top: 17px;
   line-height: 24px;
+  width: 255px;
   color: #283136;
 }
 
-.advantage__1 p {
-  width: 255px;
+.advantage__1__text {
   letter-spacing: -0.1px;
   margin-left: -1px;
 }
 
-.advantage__2 p {
-  width: 250px;
+.advantage__2__text {
   letter-spacing: 0.21px;
 }
 
-.advantage__3 p {
-  width: 230px;
+.advantage__3__text {
   letter-spacing: 0.05px;
 }
 
